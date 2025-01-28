@@ -28,16 +28,16 @@ The origin of the dataset is from the UCI Machine Learning repository link, whic
 
 **Modelling details:**
 
-First data was verified and cleaned.
-Few insights were drawn from the data.
-Baseline model was built using LogisticRegression.
-Comparison of DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression was done.
-GridSearchCV was used to improve the model for all the classifiers.
+12.	First data was verified and cleaned.
+13.	Few insights were drawn from the data.
+14.	Baseline model was built using LogisticRegression.
+15.	Comparison of DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression was done.
+16.	GridSearchCV was used to improve the model for all the classifiers.
 
 **Evaluation:**
 
-All 4 classifiers were evaluated using accuracy score. Score was almost same for all the classifiers.
-LogisticRegression took the least time to train the model compared to other classifiers. It gave best scores even with GridSearchCV.
-SVC took the most time to train the model compared to other classifiers.
-For gridsearchcv, KNeighborsClassifier took the most time to train the model compared to other classifiers.
-Precision, recall, f1-score, KNN gave the best results compared to other classifiers. with gridsearchcv, SVC was better.
+17.	All 4 classifiers were evaluated using accuracy score. Score was almost same for all the classifiers.
+18. LogisticRegression took the least time to train the model compared to other classifiers. It gave best scores even with GridSearchCV.
+19.	SVC took the most time to train the model compared to other classifiers.
+20.	For gridsearchcv, KNeighborsClassifier took the most time to train the model compared to other classifiers.
+21.	Precision, recall, f1-score, KNN gave the best results compared to other classifiers. with gridsearchcv, SVC was better.
