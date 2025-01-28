@@ -27,14 +27,17 @@ The origin of the dataset is from the UCI Machine Learning repository link, whic
 15.	The data is not normalized, which means the data is not in the same scale.
 
 **Modelling details:**
-16.	First data was verified and cleaned.
-17.	few insights were drawn from the data.
-18.	Baseline model was built using LogisticRegression.
-19.	Comparision of DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression was done.
-20.	GridSearchCV was used to improve the model for all the classifiers.
-21.	Evaluation:
-22.	All 4 classifiers were evaluated using accuracy score. Score was almost same for all the classifiers.
-23.	LogisticRegression took the least time to train the model compared to other classifiers. It gave best scores even with GridSearchCV.
-24.	SVC took the most time to train the model compared to other classifiers.
-25.	For gridsearchcv, KNeighborsClassifier took the most time to train the model compared to other classifiers.
-26.	precision, recall, f1-score, KNN gave the best results compared to other classifiers. with gridsearchcv, SVC was better.
+
+First data was verified and cleaned.
+Few insights were drawn from the data.
+Baseline model was built using LogisticRegression.
+Comparison of DecisionTreeClassifier, KNeighborsClassifier, SVC, LogisticRegression was done.
+GridSearchCV was used to improve the model for all the classifiers.
+
+**Evaluation:**
+
+All 4 classifiers were evaluated using accuracy score. Score was almost same for all the classifiers.
+LogisticRegression took the least time to train the model compared to other classifiers. It gave best scores even with GridSearchCV.
+SVC took the most time to train the model compared to other classifiers.
+For gridsearchcv, KNeighborsClassifier took the most time to train the model compared to other classifiers.
+Precision, recall, f1-score, KNN gave the best results compared to other classifiers. with gridsearchcv, SVC was better.
